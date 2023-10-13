@@ -1,0 +1,20 @@
+server:
+  port: 9000
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          burger-cloud:
+            issuer-uri: http://authserver:9000
+#            next is usially on default, so no need to write them out
+#            authorization-uri: http://authserver:9000/oauth2/authorize
+#            token-uri: http://authserver:9000/oauth2/token
+#            jwk-set-uri: http://authserver:9000/oauth2/jwks
+#            user-info-uri: http://authserver:9000/userinfo
+#            user-name-attribute: sub
+
+# later is not from the book
+#      resource-server:
+#        jwt:
+#          jwk-set-uri: http://localhost:9000/oauth2/jwks

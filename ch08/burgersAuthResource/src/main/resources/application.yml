@@ -1,0 +1,82 @@
+server:
+  port:
+    8080
+logging:
+  file:
+    path: /var/logs/
+    file: BurgerCloud.log
+  #    not described in the book how ta manage .log file
+  level:
+    burgers: DEBUG
+    root: WARN
+    org:
+      springframework:
+        security: DEBUG
+#        OR org.spingframework.security: DEBUG
+greeting:
+  welcome: You are using ${spring.application.name}.
+#server:
+#  port: 8443
+#  ssl:
+#    key-store: file:///path/to/mykeys.jks
+#    key-store-password: letmein
+#    key-password: letmein
+#
+#    the book said there can be an error connecting to secured port 443 and there is
+burger:
+  orders:
+    pageSize: 10
+spring:
+  data:
+    rest:
+#      base-path: /data-api
+      base-path: /api
+  datasource:
+    generate-unique-name: false
+    name: burger-cloud
+  security:
+    user:
+      name: buzz
+      password: infinity
+    oauth2:
+      resource-server:
+        jwt:
+          jwk-set-uri: http://localhost:9000/oauth2/jwks
+      client:
+        registration:
+          facebook:
+            client-id: <facebook client id>
+            client-secret: <facebook client secret>
+            scope: email, public_profile
+#            facebook doesn't really work
+#            because ID and Secret obtained by
+#            creating new application entry
+#            at developers.facebook.com
+---
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:mysql://localhost/burgercloud
+    username: burgeruser
+    password: burgerpassword
+  ##    usually pom.xml driver dependency enough
+  #    driver-class-name: com.mysql.jdbc.Driver
+  logging:
+    level:
+      burgers: WARN
+
+
+#spring:
+#  datasource:
+#    schema:
+#      - order-schema.sql
+#      - ingredient-schema.sql
+#      - taco-schema.sql
+#      - user-schema.sql
+#    data:
+#      - ingredients.sql
+#
+#---
+#spring:
+#  datasource:
+#    jndi-name: java:/comp/env/jdbc/tacoCloudDS

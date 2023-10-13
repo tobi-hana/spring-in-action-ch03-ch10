@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="burger-cloud-data-jpa (1)" />
+        <module name="burgersAuthResource09" />
+        <module name="burgers-cassandra" />
+        <module name="burgers-config" />
+        <module name="burger-cloud-data-jpa (2)" />
+        <module name="burgers-security" />
+        <module name="burgersAuthClient" />
+        <module name="burgersAuthResource" />
+        <module name="burgersAuthServer" />
+        <module name="burgersAuthClient09" />
+        <module name="burgers-mongodb" />
+        <module name="burgersAuthServer09" />
+        <module name="burgers-REST" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="burger-cloud-cassandra" target="11" />
+      <module name="burger-cloud-data-jpa" target="11" />
+      <module name="burger-cloud-jpa" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="burger-cloud-cassandra" options="-parameters" />
+      <module name="burger-cloud-data-jpa" options="-parameters" />
+      <module name="burger-cloud-data-jpa (1)" options="-parameters" />
+      <module name="burger-cloud-data-jpa (2)" options="-parameters" />
+      <module name="burger-cloud-jpa" options="-parameters" />
+      <module name="burgers-REST" options="-parameters" />
+      <module name="burgers-cassandra" options="-parameters" />
+      <module name="burgers-config" options="-parameters" />
+      <module name="burgers-mongodb" options="-parameters" />
+      <module name="burgers-security" options="-parameters" />
+      <module name="burgersAuthClient" options="-parameters" />
+      <module name="burgersAuthClient09" options="-parameters" />
+      <module name="burgersAuthResource" options="-parameters" />
+      <module name="burgersAuthResource09" options="-parameters" />
+      <module name="burgersAuthServer" options="-parameters" />
+      <module name="burgersAuthServer09" options="-parameters" />
+      <module name="spring-in-action" options="" />
+    </option>
+  </component>
+</project>

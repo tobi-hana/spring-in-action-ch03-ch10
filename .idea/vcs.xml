@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/burger-cloud-data-jpa" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch03/burger-cloud-data-jpa" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch04/burgers-cassandra" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch04/burgers-mongodb" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch05/burgers-security" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch06/burgers-config" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch07/burgers-REST" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch08/burgersAuthClient" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch08/burgersAuthResource" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch08/burgersAuthServer" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch09/burgersAuthClient09" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch09/burgersAuthResource09" vcs="" />
+    <mapping directory="$PROJECT_DIR$/ch09/burgersAuthServer09" vcs="" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/burger-cloud-cassandra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/burger-cloud-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/burgers-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03/22222222222222222222/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03/22222222222222222222/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03/burger-cloud-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04/burger-cloud-cassandra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04/burgers-cassandra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04/burgers-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05/burgers-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/burgers-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/burgers-REST/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08/burgersAuthClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08/burgersAuthResource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch08/burgersAuthServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/burgersAuthClient09/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/burgersAuthResource09/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/burgersAuthServer09/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

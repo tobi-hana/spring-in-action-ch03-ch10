@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    generate-unique-name: false
+    name: burgercloud
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: <facebook client id>
+            client-secret: <facebook client secret>
+            scope: email, public_profile
+#            facebook doesn't really work
+#            because ID and Secret obtained by
+#            creating new application entry
+#            at developers.facebook.com
+
+
+#          vk:
+#            client-id: vk client id
+#            client-secret: vk client secret
+#            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+#            client-authentication-method: post
+#            authorization-grant-type: authorization_code
+#            scope: email
+#        provider:
+#          vk:
+#            authorization-uri: https://oauth.vk.com/authorize?revoke=1
+#            token-uri: https://oauth.vk.com/access_token
+#            user-info-uri: https://api.vk.com/method/users.get?v=5.52&fields=photo_max
+#            user-name-attribute: first_name
+# ничего не работает ни facebook ни VK наверное REST нужен??? туториалы непонятные

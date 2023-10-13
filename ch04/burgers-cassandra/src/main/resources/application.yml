@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: burgercloud
+      schema-action: recreate
+      local-datacenter: datacenter1

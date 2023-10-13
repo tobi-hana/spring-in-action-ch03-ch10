@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sia</groupId>
+    <artifactId>spring-in-action</artifactId>
+<!--    packaging pom for multiModel projects???-->
+    <packaging>pom</packaging>
+    <version>6.0</version>
+    <name>spring-in-action</name>
+
+    <modules>
+        <module>ch03/burger-cloud-data-jpa</module>
+        <module>ch04/burgers-cassandra</module>
+        <module>ch04/burgers-mongodb</module>
+        <module>ch05/burgers-security</module>
+        <module>ch06/burgers-config</module>
+        <module>ch07/burgers-REST</module>
+        <module>ch08/burgersAuthResource</module>
+        <module>ch08/burgersAuthServer</module>
+        <module>ch08/burgersAuthClient</module>
+        <module>ch09/burgersAuthClient09</module>
+        <module>ch09/burgersAuthResource09</module>
+        <module>ch09/burgersAuthServer09</module>
+    </modules>
+
+
+</project>
